@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Εφαρμογή Θερμοκρασίας πόλης</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <img src="1779940.png" class="weather-icon" alt="Weather Icon">
+    <h1>Εφαρμογή Θερμοκρασίας</h1>
+    <input type="text" id="location" placeholder="Enter Location">
+    <button onclick="getWeather()">Θερμοκρασία!</button>
+    <div id="weatherInfo"></div>
+    <script>
+        function getWeather() {
+            const apiKey = '3f410164f12383269220179e0d838e72'; // Your OpenWeatherMap API key
+            const location = document.getElementById('location').value;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    const weatherInfo = document.getElementById('weatherInfo');
+                    weatherInfo.innerHTML = ` ${location}: <span class="temperature">${data.main.temp}°C</span>`;
+                })
+                .catch(error => {
+                    console.log('Error fetching weather data:', error);
+                });
+        }
+    </script>
+</body>
+</html>

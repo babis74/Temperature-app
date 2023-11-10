@@ -1,0 +1,40 @@
+body {
+    background-color: #2B3499; /* Dark purple background */
+    font-family:'Helvetica', Arial, sans-serif;
+    color: #fff; /* White text color */
+    text-align: center;
+    padding-top: 50px;
+}
+
+.weather-icon {
+    width: 80px; /* Adjust to the actual size of your icon */
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: large;
+    background-color: #FF6C22; /* Orange button */
+    color: #fff; /* White text on the button */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF9209; /* Darker orange on hover */
+}
+
+.temperature {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FF6C22; /* Dodger blue temperature */
+}
