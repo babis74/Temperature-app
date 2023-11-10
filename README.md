@@ -1,7 +1,7 @@
 # Temperature-app
 ![εφαρμογη θερμοκρασιας](https://github.com/babis74/Temperature-app/assets/72227584/f94e10bf-03a4-42cb-84b5-935165fb7c14)
 
-Μια απλή εφαρμογή ευρεσης θερμοκρασίας με html css και api απο https://openweathermap.org/api
+Μια απλή εφαρμογή εύρεσης θερμοκρασίας χρησιμοποιώντας html css και api απο https://openweathermap.org/api
 
 A simple temperature finder app with html css and api from https://openweathermap.org/api
 
