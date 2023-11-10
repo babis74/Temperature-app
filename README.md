@@ -1,4 +1,5 @@
 # Temperature-app
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 ![εφαρμογη θερμοκρασιας](https://github.com/babis74/Temperature-app/assets/72227584/5bd6155f-97e8-4773-8b69-123562f4eea4)
 Μια απλή εφαρμογή ευρεσης θερμοκρασίας με html css και api απο https://openweathermap.org/api
 
