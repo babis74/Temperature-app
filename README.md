@@ -9,8 +9,10 @@ Une application simple de recherche de température avec HTML CSS et API de http
 
 Una aplicación sencilla de búsqueda de temperatura con html css y api de https://openweathermap.org/api
 
+
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  <a href="https://skillicons.dev"><br>
+    <p>made with</p>
+    <img src="https://skillicons.dev/icons?i=html,css,api" />
   </a>
 </p>
